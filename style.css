@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    /* border: 10px solid black; */
+    margin: 0;
+}
+
+.logo-main {
+    /* border: 2px solid green; */
+    background-image: url(images/dewang-gupta-9tVnkU8WbIo-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    min-width: 35vw;
+    max-width: 40vw;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+}
+
+.content {
+    /* border: 1px solid red; */
+    width: 66vw;
+}
+
+.credit {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* border: 10 px solid black; */
+    text-align: center;
+}
