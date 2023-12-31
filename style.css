@@ -18,16 +18,43 @@ body {
     position: relative;
 }
 
+.logo-title {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 30vh;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background:rgba(202, 21, 12, 0.3);
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logo-title > img {
+    width: 80px;
+    height: 90px;
+    margin-right: 10px;
+}
+
+.logo-title > .title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    color: aliceblue;
+}
+
+a {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: white;
+}
+
 .content {
-    /* border: 1px solid red; */
+    border: 1px solid red;
     width: 66vw;
 }
 
-.credit {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    /* border: 10 px solid black; */
-    text-align: center;
-}
