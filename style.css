@@ -5,11 +5,9 @@ body {
 }
 
 .logo-main {
-    /* border: 2px solid green; */
     background-image: url(images/dewang-gupta-9tVnkU8WbIo-unsplash.jpg);
     background-position: center;
     background-size: cover;
-    /* background-repeat: no-repeat; */
     min-width: 35vw;
     max-width: 40vw;
     display: flex;
@@ -26,13 +24,12 @@ body {
     left: 0;
     right: 0;
     height: 80px;
-    background:rgba(44, 42, 42, 0.3);
+    background:rgba(44, 42, 42, 0.5);
     padding: 10px 20px;
 }
 
 .logo-title > img {
-
-    margin-right: 10px;
+     margin-right: 10px;
 }
 
 .logo-title > .title {
@@ -53,42 +50,52 @@ footer a {
 
 .content {
     width: 100%;
-
+    position: relative;
 }
 
 .content .content-title {
     padding: 15px 40px;
-    border: 1px solid black;
-    background-color: rgb(79, 58, 202);
-
+    background-color: rgb(197, 193, 220);
+    height: 30vh;
+    position: relative;
 }
 
 .content-title .title {
-    border: 1px solid black;
-    max-width: 700px
+    position: absolute;
+    top: 8vw;
 }
 
 .content .content-mid {
     background-color: rgb(204, 150, 150);
+    border: 1px solid black;
 }
 
 form {
-    width: 50em;
-    height: 30vh;
+    height: 35vh;
+    width: 450px;
     padding: 20px 40px;
+    margin-top: -20px;
     display: flex;
     flex-wrap: wrap;
-    gap: 2em;
+    row-gap: 20px;
+    column-gap: 80px;
+    /* border: 1px solid black; */
+}
+
+.content-mid .form-title {
+    padding: 10px 40px;
+    margin-top: -5px;
+    /* border :1px solid black; */
+
 }
 
 form .input {
     display: flex;
     flex-direction: column;
-    gap: 8px;
-    width: 10em;
+    gap: 10px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5em;
     color: white;
+    /* border: 1px solid black; */
 }
 
 input {
@@ -100,22 +107,29 @@ input {
     border: 1px solid red;
     font-size:25px;
     padding: 20px 40px;
-    background-color: aqua;
+    height: 80px;
+    /* background-color: aqua; */
 }
 
 
 button {
-    width: 11em;
-    height: 2em;
+    width: 180px;
+    height: 40px;
     color: rgb(200, 54, 54);;
     border-radius: 5px;
     border: 2px solid rgb(247, 0, 0);
     transition: all 0.3s;
-    font-size: 1em;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
     box-shadow: 2px 2px 4px black;
 }
 
 button:hover {
     color:white;
     background-color: rgb(200, 54, 54);
+}
+
+.git-credit {
+    position: absolute;
+    bottom: 0;
 }
